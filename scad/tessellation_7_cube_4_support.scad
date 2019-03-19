@@ -12,12 +12,12 @@ translate([0,1,0])cube(size = [1,1,1]);
 translate([0,0,-1])cube(size = [1,1,1]);
     }
 };
-module module_cube_4_support(translation= [0,0,0]){
+module module_cube_4_support(translation= [0,0,0], support_ratio = 1.25){    
     translate(translation)union() {
 cube(1,1,1);    
-translate([-1.25,0,0])cube(size = [1.25,1,1]);
-translate([0,1,0])cube(size = [1,1.25,1]);
-translate([0,0,-1.25])cube(size = [1,1,1.25]);
+translate([-support_ratio,0,0])cube(size = [support_ratio,1,1]);
+translate([0,1,0])cube(size = [1,support_ratio,1]);
+translate([0,0,-support_ratio])cube(size = [1,1,support_ratio]);
     }
 };
 
