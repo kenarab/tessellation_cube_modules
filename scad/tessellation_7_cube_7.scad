@@ -1,3 +1,9 @@
+/**
+Model coded by Alejandro Baranek
+With licence cc-by-sa 4.0
+
+https://creativecommons.org/licenses/by-sa/4.0/
+*/
 module module_cube_4(translation= [0,0,0]){
     translate(translation)union() {
 cube(1,1,1);    
