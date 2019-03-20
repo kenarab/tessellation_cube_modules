@@ -1,5 +1,5 @@
 /**
-Model coded by Alejandro Baranek
+Model coded by @ken4rab
 With licence cc-by-sa 4.0
 
 https://creativecommons.org/licenses/by-sa/4.0/
